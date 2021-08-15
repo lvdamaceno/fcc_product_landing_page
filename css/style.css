@@ -1,0 +1,81 @@
+body {
+  background-color: gold;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  height: 40px;
+  padding-bottom: 25px;
+}
+nav {
+  position: fixed;
+  top: 30px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure {
+  position: fixed;
+  top: 0px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header-img {
+  width: 50px;
+}
+#nav-items {
+  position: absolute;
+  right: 10px;
+}
+#icons {
+  padding: 22px 0;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#specs p {
+  text-align: justify;
+  margin: 10px;
+}
+#box-shadown {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  margin: 10px;
+}
+.container {
+  display: flex; /* or inline-flex */
+}
+.icons-header {
+  display: flex;
+}
+.icons-header h2 {
+  text-align: justify;
+}
+#howitworks {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+iframe {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+#contact {
+  text-align: center;
+}
+#price {
+  padding-top: 25px;
+}
