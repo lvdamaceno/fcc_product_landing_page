@@ -8,6 +8,7 @@ body {
 header {
   height: 40px;
   padding-bottom: 25px;
+  background: gold;
 }
 nav {
   position: fixed;
@@ -16,6 +17,22 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-link {
+  margin: 10px;
+}
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 figure {
   position: fixed;
@@ -32,17 +49,6 @@ figure {
   position: absolute;
   right: 10px;
 }
-#icons {
-  padding: 22px 0;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#specs p {
-  text-align: justify;
-  margin: 10px;
-}
 #box-shadown {
   border: 1px solid;
   padding: 10px;
@@ -56,8 +62,20 @@ figure {
   display: flex;
 }
 .icons-header h2 {
-  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
 }
+#icons {
+  padding: 22px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: auto;
+}
+#specs p {
+  text-align: justify;
+  margin: 10px;
+}
+
 #howitworks {
   position: relative;
   width: 100%;
