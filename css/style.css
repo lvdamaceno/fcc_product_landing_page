@@ -1,5 +1,5 @@
 body {
-  background-color: gold;
+  background-color: white;
   width: 800px;
   display: block;
   margin-left: auto;
@@ -8,7 +8,7 @@ body {
 header {
   height: 40px;
   padding-bottom: 25px;
-  background: gold;
+  background: white;
 }
 nav {
   position: fixed;
@@ -95,5 +95,18 @@ iframe {
   text-align: center;
 }
 #price {
-  padding-top: 25px;
+  padding-top: 50px;
+}
+#price p {
+  text-align: justify;
+  margin: 30px;
+  font-size: 1.5em;
+}
+.guitar_description {
+  display: flex;
+}
+.footer {
+  padding-top: 20px;
+  width: 800px;
+  text-align: right;
 }
